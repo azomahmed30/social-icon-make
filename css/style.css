@@ -1,0 +1,39 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 60%;
+    margin: 60px auto;
+}
+middle1{
+   
+}
+.btn{
+    display:inline-block;
+    height:90px;
+    width:90px;
+    background-color: #f1f1f1;
+    text-align: center;
+    line-height:90px;
+    border-radius:30%;
+    margin: 10px;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: #3498db;
+     transition: all linear .3s;
+   
+    
+}
+.btn i{
+    font-size: 30px;
+    transition: all linear .3s;
+}
+.btn:hover i{
+    transform: scale(1.5);
+    
+}
+.btn:hover{
+    box-shadow: 0 0 5px #ddd;
+    transition: all linear .3s;
+}
+        
